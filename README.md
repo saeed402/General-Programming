@@ -241,6 +241,9 @@ JSON is structured as a collection of key-value pairs, where each key is a strin
   "hobbies": ["reading", "swimming", "hiking"]
 }
 
+
+
+
 ## Common Use Cases of JSON
 
 JSON is widely used in various contexts:
@@ -274,6 +277,7 @@ XML documents consist of a hierarchical structure of elements that are enclosed 
     <price>19.99</price>
   </book>
 </bookstore>
+
 ## XML Key Concepts and Common Use Cases
 
 In the example, `<bookstore>` is the root element, and it contains two `<book>` elements. Each `<book>` element contains sub-elements such as `<title>`, `<author>`, and `<price>`.
