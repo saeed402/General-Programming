@@ -231,17 +231,7 @@ JSON, short for "JavaScript Object Notation," is a lightweight data interchange 
 
 ### JSON Structure
 
-JSON is structured as a collection of key-value pairs, where each key is a string and each value can be a string, number, boolean, null, object, or an array. Here's a simple example:
-
-```json
-{
-  "name": "hamza",
-  "age": 20,
-  "isStudent": false,
-  "hobbies": ["reading", "swimming", "hiking"]
-}```
-
-
+JSON is structured as a collection of key-value pairs, where each key is a string and each value can be a string, number, boolean, null, object, or an array. 
 
 ## Common Use Cases of JSON
 
@@ -261,21 +251,8 @@ XML, or eXtensible Markup Language, is a versatile markup language used to struc
 
 ### XML Structure
 
-XML documents consist of a hierarchical structure of elements that are enclosed within tags. Each XML document must have a single root element that contains all other elements. The structure is defined by nesting elements within each other. Here's a simple example:
+XML documents consist of a hierarchical structure of elements that are enclosed within tags. Each XML document must have a single root element that contains all other elements. The structure is defined by nesting elements within each other. 
 
-```xml
-<bookstore>
-  <book>
-    <title>Harry Potter</title>
-    <author>J.K. Rowling</author>
-    <price>29.99</price>
-  </book>
-  <book>
-    <title>The Hobbit</title>
-    <author>J.R.R. Tolkien</author>
-    <price>19.99</price>
-  </book>
-</bookstore>
 
 ## XML Key Concepts and Common Use Cases
 
@@ -307,12 +284,8 @@ CSV, or Comma-Separated Values, is a simple and widely used file format for stor
 
 ### Structure of a CSV File
 
-A CSV file consists of rows and columns. Each line in the file represents a row, and the values within each line are separated by commas. The first line of a CSV file is commonly used as the header row, which contains the names of the columns. Here's an example:
+A CSV file consists of rows and columns. Each line in the file represents a row, and the values within each line are separated by commas. The first line of a CSV file is commonly used as the header row, which contains the names of the columns. 
 
-```plaintext
-Name, Age, City
-John, 30, New York
-Emily, 25, Los Angeles
 ## Header in CSV
 
 The header in a CSV file is the first row that typically contains labels or names for each column. It provides a clear way to understand the content of each column in the data set. Headers make it easier for humans to interpret the data and for software to map values to their corresponding columns.
