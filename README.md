@@ -23,6 +23,7 @@ For example, here are a few ASCII characters along with their corresponding deci
 Control characters, like newline (NL), carriage return (CR), tab (TAB), and others, are also part of ASCII. These characters are used to control the formatting and behavior of text, especially in contexts such as printing and data communication.
 
 ASCII was widely used in the early days of computing, particularly for English-language text. However, as computing became more global and diverse languages needed representation, the limitations of ASCII became apparent. This led to the development of Unicode, which supports a broader range of characters from various languages and scripts.
+![ASCII_TABLE](./Data/ascii.jpg)
 
 In summary, ASCII is a character encoding standard that provides a way to represent text and control characters using 7-bit binary numbers, making it a fundamental building block of computer-based communication and data storage.
 
@@ -37,6 +38,7 @@ Unicode is structured into different "planes," each containing a subset of code 
 A significant encoding scheme used with Unicode is UTF-8 (Unicode Transformation Format - 8-bit), which encodes Unicode characters into a variable number of bytes. UTF-8 is particularly efficient for English and other Western languages because it represents ASCII characters using a single byte and supports the full Unicode character set when needed.
 
 Unicode has become essential for software, databases, and communication protocols because of its ability to handle diverse languages and symbols accurately. It eliminates the need for multiple character encodings and allows developers to create globally compatible applications that can handle multilingual content seamlessly.
+![UNICODE_TABLE](./Data/unicode.jpg)
 
 In summary, Unicode is a comprehensive character encoding standard that provides a unified way to represent characters from various languages and scripts, fostering multilingual communication and enabling global software interoperability.
 
@@ -60,6 +62,7 @@ UTF-8 provides several advantages:
 5. **Wide Adoption:** UTF-8 is widely supported in programming languages, operating systems, databases, and communication protocols.
 
 Despite its benefits, UTF-8 might use more bytes than other Unicode encoding forms (like UTF-16) for certain characters. However, its efficiency and compatibility have made it the de facto standard for character encoding on the web and in many software applications.
+![UTF-8_TABLE](./Data/utf-8.jpg)
 
 In summary, UTF-8 is a versatile and widely used character encoding scheme that allows computers to represent characters from all languages and scripts in the Unicode standard efficiently. It plays a crucial role in enabling multilingual communication and global software interoperability.
 
@@ -114,6 +117,9 @@ Modern hardware architecture refers to the design and organization of computer h
 
 12. **Networking Components:** For connecting to the internet or other computers, including network interfaces, Wi-Fi cards, and routers.
 
+    ![MODErn_Architecture](./Data/hardware.png)
+
+
 Modern hardware architecture often emphasizes parallelism, enabling multiple tasks to be executed simultaneously through multiple cores or processors. It also optimizes power efficiency, size, and cooling solutions to meet the demands of various computing scenarios.
 
 ## 6.Maximum RAM in 32-bit and 64-bit Architectures
@@ -137,6 +143,8 @@ In summary, the maximum amount of RAM in a 32-bit system is approximately 4 GB, 
 In computing, a **bit** (short for "binary digit") is the smallest unit of data and can hold one of two values: 0 or 1. It's the basic building block of digital information processing.
 
 A **byte**, on the other hand, is a grouping of 8 bits. Bytes are used to represent a wider range of data, including characters, numbers, and more. Since there are two possible values (0 or 1) for each bit, a byte can represent 2^8 (256) distinct combinations. This means a byte can represent numbers from 0 to 255, or it can represent a character in various character encoding schemes like ASCII or Unicode.
+
+ ![bits_BYTES](./Data/bits and bytes.png)
 
 **Storage and Data Representation**
 
@@ -325,6 +333,8 @@ Parquet's columnar storage and other features make it well-suited for analytical
 
 Parquet is commonly used in big data and data warehousing scenarios, where large volumes of data need to be stored and processed efficiently. It's especially valuable when dealing with read-heavy workloads involving complex analytical queries.
 
+![parquet_Architecture](./Data/parquet.png)
+
 ### Summary
 
 Parquet is a columnar storage file format optimized for analytical and data processing workloads. Its columnar storage, compression benefits, schema evolution support, and compatibility with big data processing tools make it a popular choice for storing and processing large datasets.
@@ -380,6 +390,9 @@ The Gitflow workflow is designed to provide a clear and organized structure for 
 - **Release Branches:** Release branches are created from the `develop` branch when a set of features is ready for release. This branch allows for final testing, bug fixing, and preparation for the upcoming release. Once everything is validated, the release branch is merged into both `master` and `develop`.
 
 - **Hotfix Branches:** Hotfix branches are used to quickly address critical issues or bugs in the `master` branch. They are created from `master`, fixes are applied, and then the fixes are merged back into both `master` and `develop`.
+
+  ![GITFLOW_Architecture](./Data/gitflow.jpg)
+
 
 ## 17.What is Pull Request (PR).
 
