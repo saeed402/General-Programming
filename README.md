@@ -239,8 +239,7 @@ JSON is structured as a collection of key-value pairs, where each key is a strin
   "age": 20,
   "isStudent": false,
   "hobbies": ["reading", "swimming", "hiking"]
-}
-
+}```
 
 
 
