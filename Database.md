@@ -74,6 +74,8 @@ In-memory databases store data in the main memory (RAM) instead of traditional d
 ### Time-Series DBMS
 Time-series databases specialize in handling data that changes over time, such as sensor data, financial data, and IoT data.
 
+![DBMS](./Data/DBMS.PNG)
+
 
 ### 2. What is a database?
 A **database** is a systematically organized collection of data that is designed to be stored, managed, and retrieved efficiently. Databases serve as repositories for various types of information, ranging from simple text to complex multimedia files. They play a vital role in modern information systems by providing a structured and organized way to store and access data.
